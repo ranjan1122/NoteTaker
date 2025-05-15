@@ -12,6 +12,7 @@
  * 
  * System.out.println(i1.equals(i1)); Main main1=new Main(); Main main2=new
  * Main(); main1.equals(main2); }
+ * addiind..
  * 
  * 
  * }
