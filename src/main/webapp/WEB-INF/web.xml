@@ -1,0 +1,35 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-class>com.java.controller.SaveNoteServlet</servlet-class>
+  	<servlet-name>SaveNote</servlet-name>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>SaveNote</servlet-name>
+  	<url-pattern>/SaveNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-class>com.java.controller.DeleteNoteServlet</servlet-class>
+  	<servlet-name>DeleteNote</servlet-name>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteNote</servlet-name>
+  	<url-pattern>/DeleteNoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-class>com.java.controller.EditNoteServlet</servlet-class>
+  	<servlet-name>EditNote</servlet-name>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>EditNote</servlet-name>
+  	<url-pattern>/EditNoteServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
